@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-4.0.0.min.js"></script>
+</head>
+
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <!-- Mobile Toggle Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left Side Links -->
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    Home <span class="sr-only">(current)</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tutorial</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another Action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something Else</a>
+                </div>
+            </li>
+
+        </ul>
+
+        <!-- Search Form -->
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">
+                Search
+            </button>
+        </form>
+
+    </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- CONTAINER -->
+<div class="container mt-4">
+
+  <!-- ALERT -->
+  <div class="alert alert-success">
+    Welcome! Please complete the form below.
+  </div>
+
+  <!-- HEADING -->
+  <h2 class="text-center mb-4">Student Information Form</h2>
+
+  <!-- TABLE WITH FORM -->
+  <table class="table table-bordered table-hover">
+    <tr>
+      <th>Name</th>
+      <td><input type="text" class="form-control"></td>
+    </tr>
+
+    <tr>
+      <th>Email</th>
+      <td><input type="email" class="form-control"></td>
+    </tr>
+
+    <tr>
+      <th>Course</th>
+      <td>
+        <select class="form-control">
+          <option>Select</option>
+          <option>BSIT</option>
+          <option>BSCS</option>
+          <option>BTVTED</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <th>Message</th>
+      <td><textarea class="form-control" rows="3"></textarea></td>
+    </tr>
+
+    <tr>
+      <td colspan="2" class="text-center">
+        <button class="btn btn-primary">Submit</button>
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+<html>   
